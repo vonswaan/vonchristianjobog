@@ -1,0 +1,580 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Von Christian Jobog | Automation &amp; AI Engineer</title>
+  <meta name="description" content="Portfolio of Von Christian Jobog — Intelligent Automation Developer, RPA Engineer, and AI Enthusiast with 10+ years of experience." />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <!-- ===== NAVBAR ===== -->
+  <nav class="navbar" id="navbar">
+    <div class="nav-container">
+      <a href="#hero" class="nav-logo">&lt;VCJ /&gt;</a>
+      <button class="nav-toggle" id="navToggle" aria-label="Toggle navigation">
+        <span></span><span></span><span></span>
+      </button>
+      <ul class="nav-menu" id="navMenu">
+        <li><a href="#about" class="nav-link">About</a></li>
+        <li><a href="#skills" class="nav-link">Skills</a></li>
+        <li><a href="#experience" class="nav-link">Experience</a></li>
+        <li><a href="#certifications" class="nav-link">Certifications</a></li>
+        <li><a href="#projects" class="nav-link">Projects</a></li>
+        <li><a href="#contact" class="nav-link nav-cta">Contact Me</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <!-- ===== HERO ===== -->
+  <section class="hero" id="hero">
+    <div class="hero-bg-grid"></div>
+    <div class="hero-content">
+      <p class="hero-greeting animate-in">Hello, I'm</p>
+      <h1 class="hero-name animate-in">Von Christian <span class="accent">Jobog</span></h1>
+      <div class="hero-typed-wrapper animate-in">
+        <span class="hero-typed-prefix">I build </span>
+        <span class="typed-text" id="typedText"></span>
+        <span class="typed-cursor">|</span>
+      </div>
+      <p class="hero-summary animate-in">
+        Intelligent Automation Developer with <strong>10+ years</strong> of experience
+        designing scalable RPA solutions, integrating AI into business processes,
+        and driving digital transformation across enterprise organizations.
+      </p>
+      <div class="hero-buttons animate-in">
+        <a href="#projects" class="btn btn-primary">View My Work</a>
+        <a href="#contact" class="btn btn-outline">Get In Touch</a>
+      </div>
+      <div class="hero-stats animate-in">
+        <div class="stat">
+          <span class="stat-number" data-target="10">0</span><span class="stat-plus">+</span>
+          <span class="stat-label">Years Experience</span>
+        </div>
+        <div class="stat">
+          <span class="stat-number" data-target="50">0</span><span class="stat-plus">+</span>
+          <span class="stat-label">Bots Deployed</span>
+        </div>
+        <div class="stat">
+          <span class="stat-number" data-target="15000">0</span><span class="stat-plus">+</span>
+          <span class="stat-label">Hours Saved</span>
+        </div>
+        <div class="stat">
+          <span class="stat-number" data-target="10">0</span><span class="stat-plus">+</span>
+          <span class="stat-label">Certifications</span>
+        </div>
+      </div>
+    </div>
+    <a href="#about" class="scroll-indicator" aria-label="Scroll down">
+      <i class="fa-solid fa-chevron-down"></i>
+    </a>
+  </section>
+
+  <!-- ===== ABOUT ===== -->
+  <section class="section" id="about">
+    <div class="container">
+      <h2 class="section-title animate-in">About <span class="accent">Me</span></h2>
+      <div class="about-grid">
+        <div class="about-text animate-in">
+          <p>
+            I'm a Manila-based <strong>Intelligent Automation Developer</strong> currently at
+            <strong>Smart Communications, Inc.</strong>, one of the Philippines' largest telecom providers.
+            I architect end-to-end automation workflows that bridge the gap between traditional RPA
+            and modern AI, helping organizations eliminate manual bottlenecks and scale operations.
+          </p>
+          <p>
+            My journey started in <strong>IT infrastructure and systems administration</strong>,
+            giving me a deep understanding of the platforms and environments where automation lives.
+            Over the past decade, I've evolved through roles as a Technical Consultant, RPA Developer,
+            and Associate Consultant at companies like <strong>CGI, PCCW Solutions,</strong> and
+            <strong>HCX Technology Partners (Ayala Corp.)</strong>.
+          </p>
+          <p>
+            Today, I specialize in building intelligent bots using <strong>Automation Anywhere, UiPath,
+            and Blue Prism</strong>, integrating them with <strong>AI/ML models, LLMs, and generative AI</strong>
+            to handle complex, unstructured tasks. I'm passionate about pushing the boundaries of what
+            automation can achieve.
+          </p>
+          <div class="about-details">
+            <div class="detail"><i class="fa-solid fa-location-dot"></i> Metro Manila, Philippines</div>
+            <div class="detail"><i class="fa-solid fa-graduation-cap"></i> BS Information Technology — Batangas State University</div>
+            <div class="detail"><i class="fa-solid fa-briefcase"></i> Open to Remote / Freelance / Contract</div>
+          </div>
+        </div>
+        <div class="about-highlights animate-in">
+          <div class="highlight-card">
+            <div class="highlight-icon"><i class="fa-solid fa-robot"></i></div>
+            <h3>RPA Engineering</h3>
+            <p>Expert in Automation Anywhere, UiPath &amp; Blue Prism. Built 50+ production bots across finance, HR, ops, and telecom.</p>
+          </div>
+          <div class="highlight-card">
+            <div class="highlight-icon"><i class="fa-solid fa-brain"></i></div>
+            <h3>AI Integration</h3>
+            <p>Combining RPA with LLMs, document understanding, and NLP for intelligent, cognitive automation solutions.</p>
+          </div>
+          <div class="highlight-card">
+            <div class="highlight-icon"><i class="fa-solid fa-server"></i></div>
+            <h3>Infrastructure</h3>
+            <p>Strong Linux/Windows Server, VMware, and ServiceNow background — I understand the full stack where automation runs.</p>
+          </div>
+          <div class="highlight-card">
+            <div class="highlight-icon"><i class="fa-solid fa-code"></i></div>
+            <h3>Scripting &amp; Dev</h3>
+            <p>Python, PowerShell, VB.NET, C#, SQL — writing custom scripts, API integrations, and automation utilities.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== SKILLS ===== -->
+  <section class="section section-alt" id="skills">
+    <div class="container">
+      <h2 class="section-title animate-in">Skills &amp; <span class="accent">Technologies</span></h2>
+      <div class="skills-grid animate-in">
+        <div class="skill-category">
+          <h3><i class="fa-solid fa-robot"></i> RPA Platforms</h3>
+          <div class="skill-tags">
+            <span class="skill-tag tag-primary">Automation Anywhere</span>
+            <span class="skill-tag tag-primary">UiPath</span>
+            <span class="skill-tag tag-primary">Blue Prism</span>
+            <span class="skill-tag tag-primary">Power Automate</span>
+          </div>
+        </div>
+        <div class="skill-category">
+          <h3><i class="fa-solid fa-code"></i> Languages &amp; Scripting</h3>
+          <div class="skill-tags">
+            <span class="skill-tag tag-secondary">Python</span>
+            <span class="skill-tag tag-secondary">PowerShell</span>
+            <span class="skill-tag tag-secondary">VB.NET</span>
+            <span class="skill-tag tag-secondary">C#</span>
+            <span class="skill-tag tag-secondary">SQL</span>
+            <span class="skill-tag tag-secondary">JavaScript</span>
+            <span class="skill-tag tag-secondary">Bash</span>
+          </div>
+        </div>
+        <div class="skill-category">
+          <h3><i class="fa-solid fa-brain"></i> AI &amp; Data</h3>
+          <div class="skill-tags">
+            <span class="skill-tag tag-accent">Generative AI / LLMs</span>
+            <span class="skill-tag tag-accent">OpenAI API</span>
+            <span class="skill-tag tag-accent">LangChain</span>
+            <span class="skill-tag tag-accent">Document Understanding</span>
+            <span class="skill-tag tag-accent">OCR / NLP</span>
+            <span class="skill-tag tag-accent">Pandas</span>
+            <span class="skill-tag tag-accent">Process Mining</span>
+          </div>
+        </div>
+        <div class="skill-category">
+          <h3><i class="fa-solid fa-server"></i> Infrastructure &amp; Platforms</h3>
+          <div class="skill-tags">
+            <span class="skill-tag tag-muted">Linux (RHEL)</span>
+            <span class="skill-tag tag-muted">Windows Server</span>
+            <span class="skill-tag tag-muted">VMware</span>
+            <span class="skill-tag tag-muted">ServiceNow</span>
+            <span class="skill-tag tag-muted">REST APIs</span>
+            <span class="skill-tag tag-muted">Git</span>
+            <span class="skill-tag tag-muted">Agile / SAFe</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="proficiency-bars animate-in">
+        <h3 class="proficiency-title">Proficiency Overview</h3>
+        <div class="bar-group">
+          <div class="bar-item">
+            <div class="bar-header">
+              <span>Automation Architecture &amp; RPA</span>
+              <span>95%</span>
+            </div>
+            <div class="bar-track"><div class="bar-fill" data-width="95"></div></div>
+          </div>
+          <div class="bar-item">
+            <div class="bar-header">
+              <span>PowerShell / Scripting</span>
+              <span>88%</span>
+            </div>
+            <div class="bar-track"><div class="bar-fill" data-width="88"></div></div>
+          </div>
+          <div class="bar-item">
+            <div class="bar-header">
+              <span>ServiceNow Development</span>
+              <span>80%</span>
+            </div>
+            <div class="bar-track"><div class="bar-fill" data-width="80"></div></div>
+          </div>
+          <div class="bar-item">
+            <div class="bar-header">
+              <span>Linux / Server Administration</span>
+              <span>82%</span>
+            </div>
+            <div class="bar-track"><div class="bar-fill" data-width="82"></div></div>
+          </div>
+          <div class="bar-item">
+            <div class="bar-header">
+              <span>AI / LLM Integration</span>
+              <span>70%</span>
+            </div>
+            <div class="bar-track"><div class="bar-fill" data-width="70"></div></div>
+          </div>
+          <div class="bar-item">
+            <div class="bar-header">
+              <span>Python Development</span>
+              <span>72%</span>
+            </div>
+            <div class="bar-track"><div class="bar-fill" data-width="72"></div></div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== EXPERIENCE ===== -->
+  <section class="section" id="experience">
+    <div class="container">
+      <h2 class="section-title animate-in">Work <span class="accent">Experience</span></h2>
+      <div class="timeline">
+        <div class="timeline-item animate-in">
+          <div class="timeline-marker"></div>
+          <div class="timeline-content">
+            <div class="timeline-badge current">Current</div>
+            <h3>Intelligent Automation Developer</h3>
+            <h4><i class="fa-solid fa-building"></i> Smart Communications, Inc.</h4>
+            <span class="timeline-date"><i class="fa-regular fa-calendar"></i> June 2022 – Present</span>
+            <ul>
+              <li>Architect and deliver end-to-end automation solutions for one of the Philippines' largest telecom providers</li>
+              <li>Integrate AI/ML capabilities including document understanding and NLP into RPA workflows</li>
+              <li>Lead digital transformation initiatives, automating processes across network operations, finance, and customer service</li>
+              <li>Collaborate with cross-functional teams to identify automation opportunities and drive ROI</li>
+            </ul>
+            <div class="timeline-tags">
+              <span>Automation Anywhere</span><span>UiPath</span><span>Python</span><span>AI</span><span>ServiceNow</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="timeline-item animate-in">
+          <div class="timeline-marker"></div>
+          <div class="timeline-content">
+            <h3>System Specialist — Automation Team</h3>
+            <h4><i class="fa-solid fa-building"></i> PCCW Solutions Limited</h4>
+            <span class="timeline-date"><i class="fa-regular fa-calendar"></i> December 2021 – March 2022</span>
+            <ul>
+              <li>Delivered automation solutions for enterprise IT service management</li>
+              <li>Managed bot infrastructure and deployment pipelines</li>
+            </ul>
+            <div class="timeline-tags">
+              <span>RPA</span><span>Automation</span><span>IT Consulting</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="timeline-item animate-in">
+          <div class="timeline-marker"></div>
+          <div class="timeline-content">
+            <h3>Associate Consultant / RPA Developer</h3>
+            <h4><i class="fa-solid fa-building"></i> CGI</h4>
+            <span class="timeline-date"><i class="fa-regular fa-calendar"></i> February 2019 – December 2021</span>
+            <ul>
+              <li>Developed and maintained 30+ automation bots for global consulting clients</li>
+              <li>Conducted process assessments, feasibility studies, and solution design for RPA initiatives</li>
+              <li>Trained junior developers and contributed to the RPA Center of Excellence</li>
+            </ul>
+            <div class="timeline-tags">
+              <span>Blue Prism</span><span>Automation Anywhere</span><span>SQL</span><span>Consulting</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="timeline-item animate-in">
+          <div class="timeline-marker"></div>
+          <div class="timeline-content">
+            <h3>RPA Developer</h3>
+            <h4><i class="fa-solid fa-building"></i> HCX Technology Partners (Ayala Corp.)</h4>
+            <span class="timeline-date"><i class="fa-regular fa-calendar"></i> January 2018 – February 2019</span>
+            <ul>
+              <li>Built Automation Anywhere bots for banking and financial services clients</li>
+              <li>Designed automation frameworks and reusable components</li>
+            </ul>
+            <div class="timeline-tags">
+              <span>Automation Anywhere</span><span>VB.NET</span><span>APIs</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="timeline-item animate-in">
+          <div class="timeline-marker"></div>
+          <div class="timeline-content">
+            <h3>Technical Consultant</h3>
+            <h4><i class="fa-solid fa-building"></i> HCX Technology Partners (Ayala Corp.)</h4>
+            <span class="timeline-date"><i class="fa-regular fa-calendar"></i> October 2015 – February 2019</span>
+            <ul>
+              <li>Provided IT infrastructure support and systems administration</li>
+              <li>Managed Linux/Windows server environments, VMware virtualization</li>
+              <li>Transitioned into RPA development, bridging infrastructure and automation expertise</li>
+            </ul>
+            <div class="timeline-tags">
+              <span>Linux</span><span>Windows Server</span><span>VMware</span><span>PowerShell</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== CERTIFICATIONS ===== -->
+  <section class="section section-alt" id="certifications">
+    <div class="container">
+      <h2 class="section-title animate-in">Licenses &amp; <span class="accent">Certifications</span></h2>
+      <div class="certs-grid animate-in">
+        <div class="cert-card">
+          <div class="cert-icon"><i class="fa-solid fa-award"></i></div>
+          <h4>UiPath Accredited Trainer</h4>
+          <p>UiPath</p>
+          <span class="cert-year">2023</span>
+        </div>
+        <div class="cert-card">
+          <div class="cert-icon"><i class="fa-solid fa-certificate"></i></div>
+          <h4>Intelligent Automation Foundations</h4>
+          <p>LinkedIn Learning</p>
+          <span class="cert-year">2023</span>
+        </div>
+        <div class="cert-card">
+          <div class="cert-icon"><i class="fa-solid fa-award"></i></div>
+          <h4>Blue Prism Developer Certification</h4>
+          <p>Blue Prism</p>
+          <span class="cert-year">2021</span>
+        </div>
+        <div class="cert-card">
+          <div class="cert-icon"><i class="fa-solid fa-shield-halved"></i></div>
+          <h4>SAFe 5 Practitioner</h4>
+          <p>Scaled Agile, Inc.</p>
+          <span class="cert-year">2021</span>
+        </div>
+        <div class="cert-card">
+          <div class="cert-icon"><i class="fa-solid fa-certificate"></i></div>
+          <h4>AA Certified Advanced RPA Professional (v11)</h4>
+          <p>Automation Anywhere</p>
+          <span class="cert-year">2019</span>
+        </div>
+        <div class="cert-card">
+          <div class="cert-icon"><i class="fa-solid fa-gear"></i></div>
+          <h4>Control Room Administrator</h4>
+          <p>Automation Anywhere</p>
+          <span class="cert-year">2019</span>
+        </div>
+        <div class="cert-card">
+          <div class="cert-icon"><i class="fa-solid fa-certificate"></i></div>
+          <h4>UiPath Level 1 — Foundation</h4>
+          <p>UiPath</p>
+          <span class="cert-year">2019</span>
+        </div>
+        <div class="cert-card">
+          <div class="cert-icon"><i class="fa-solid fa-certificate"></i></div>
+          <h4>AA Certified Advanced RPA Professional</h4>
+          <p>Automation Anywhere</p>
+          <span class="cert-year">2018</span>
+        </div>
+        <div class="cert-card">
+          <div class="cert-icon"><i class="fa-brands fa-redhat"></i></div>
+          <h4>RH124 — Red Hat Enterprise Linux</h4>
+          <p>IT Group, Inc.</p>
+          <span class="cert-year">2017</span>
+        </div>
+        <div class="cert-card">
+          <div class="cert-icon"><i class="fa-brands fa-linux"></i></div>
+          <h4>UNIX &amp; Linux Essentials</h4>
+          <p>TechEdge Solutions</p>
+          <span class="cert-year">2016</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== PROJECTS ===== -->
+  <section class="section" id="projects">
+    <div class="container">
+      <h2 class="section-title animate-in">Featured <span class="accent">Projects</span></h2>
+      <div class="projects-grid">
+        <div class="project-card animate-in">
+          <div class="project-header">
+            <div class="project-icon"><i class="fa-solid fa-file-lines"></i></div>
+            <div class="project-links">
+              <a href="#" title="View on GitHub"><i class="fa-brands fa-github"></i></a>
+            </div>
+          </div>
+          <h3>Intelligent Document Processing Pipeline</h3>
+          <p>End-to-end automation combining OCR, NLP, and RPA to process unstructured documents with 95%+ accuracy. Reduced manual processing time by 80%.</p>
+          <div class="project-tags">
+            <span>UiPath</span><span>Python</span><span>AI Center</span><span>Document Understanding</span>
+          </div>
+          <div class="project-impact">
+            <i class="fa-solid fa-chart-line"></i> 80% processing time reduction
+          </div>
+        </div>
+
+        <div class="project-card animate-in">
+          <div class="project-header">
+            <div class="project-icon"><i class="fa-solid fa-gears"></i></div>
+            <div class="project-links">
+              <a href="#" title="View on GitHub"><i class="fa-brands fa-github"></i></a>
+            </div>
+          </div>
+          <h3>Enterprise Workflow Automation Suite</h3>
+          <p>Built 50+ production bots automating business processes across finance, HR, and operations for a major telecom provider. Saved 15,000+ manual hours annually.</p>
+          <div class="project-tags">
+            <span>Automation Anywhere</span><span>SQL</span><span>REST APIs</span><span>ServiceNow</span>
+          </div>
+          <div class="project-impact">
+            <i class="fa-solid fa-chart-line"></i> 15,000+ hours saved per year
+          </div>
+        </div>
+
+        <div class="project-card animate-in">
+          <div class="project-header">
+            <div class="project-icon"><i class="fa-solid fa-shield-halved"></i></div>
+            <div class="project-links">
+              <a href="#" title="View on GitHub"><i class="fa-brands fa-github"></i></a>
+            </div>
+          </div>
+          <h3>Infrastructure Monitoring &amp; Auto-Remediation</h3>
+          <p>Designed PowerShell-based monitoring scripts with auto-remediation capabilities for Windows/Linux server environments, integrated with ServiceNow for ticket management.</p>
+          <div class="project-tags">
+            <span>PowerShell</span><span>Linux</span><span>VMware</span><span>ServiceNow</span>
+          </div>
+          <div class="project-impact">
+            <i class="fa-solid fa-chart-line"></i> 60% faster incident resolution
+          </div>
+        </div>
+
+        <div class="project-card animate-in">
+          <div class="project-header">
+            <div class="project-icon"><i class="fa-solid fa-brain"></i></div>
+            <div class="project-links">
+              <a href="#" title="View on GitHub"><i class="fa-brands fa-github"></i></a>
+            </div>
+          </div>
+          <h3>AI-Powered Process Mining &amp; Optimization</h3>
+          <p>Leveraged process mining tools and AI/ML models to identify automation opportunities, predict process bottlenecks, and recommend optimization strategies.</p>
+          <div class="project-tags">
+            <span>Python</span><span>Pandas</span><span>Process Mining</span><span>LLMs</span>
+          </div>
+          <div class="project-impact">
+            <i class="fa-solid fa-chart-line"></i> 40+ processes optimized
+          </div>
+        </div>
+
+        <div class="project-card animate-in">
+          <div class="project-header">
+            <div class="project-icon"><i class="fa-solid fa-wand-magic-sparkles"></i></div>
+            <div class="project-links">
+              <a href="#" title="View on GitHub"><i class="fa-brands fa-github"></i></a>
+            </div>
+          </div>
+          <h3>GenAI-Enhanced Customer Service Bot</h3>
+          <p>Integrated GPT-based language models into an RPA workflow to handle customer inquiries, classify tickets, and auto-generate resolution responses with human-in-the-loop validation.</p>
+          <div class="project-tags">
+            <span>OpenAI API</span><span>LangChain</span><span>UiPath</span><span>Python</span>
+          </div>
+          <div class="project-impact">
+            <i class="fa-solid fa-chart-line"></i> 70% faster ticket resolution
+          </div>
+        </div>
+
+        <div class="project-card animate-in">
+          <div class="project-header">
+            <div class="project-icon"><i class="fa-solid fa-terminal"></i></div>
+            <div class="project-links">
+              <a href="#" title="View on GitHub"><i class="fa-brands fa-github"></i></a>
+            </div>
+          </div>
+          <h3>PowerShell Automation Toolkit</h3>
+          <p>Open-source collection of PowerShell modules for Active Directory management, server health checks, automated reporting, and environment provisioning scripts.</p>
+          <div class="project-tags">
+            <span>PowerShell</span><span>Windows Server</span><span>Active Directory</span><span>Automation</span>
+          </div>
+          <div class="project-impact">
+            <i class="fa-solid fa-chart-line"></i> Reusable across 10+ clients
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== CONTACT ===== -->
+  <section class="section section-alt" id="contact">
+    <div class="container">
+      <h2 class="section-title animate-in">Get In <span class="accent">Touch</span></h2>
+      <div class="contact-wrapper animate-in">
+        <div class="contact-info">
+          <p class="contact-intro">
+            I'm currently open to <strong>freelance, contract, and full-time remote opportunities</strong>
+            in Intelligent Automation, RPA Development, AI/ML Integration, and Technical Consulting.
+            Let's build something impactful together.
+          </p>
+          <div class="contact-details">
+            <a href="mailto:vonchristianjobog@gmail.com" class="contact-item">
+              <i class="fa-solid fa-envelope"></i>
+              <span>vonchristianjobog@gmail.com</span>
+            </a>
+            <a href="https://www.linkedin.com/in/vonchristianjobog/" target="_blank" class="contact-item">
+              <i class="fa-brands fa-linkedin"></i>
+              <span>linkedin.com/in/vonchristianjobog</span>
+            </a>
+            <a href="https://github.com/vonchristianjobog" target="_blank" class="contact-item">
+              <i class="fa-brands fa-github"></i>
+              <span>github.com/vonchristianjobog</span>
+            </a>
+            <div class="contact-item">
+              <i class="fa-solid fa-location-dot"></i>
+              <span>Metro Manila, Philippines</span>
+            </div>
+          </div>
+          <div class="contact-availability">
+            <span class="availability-dot"></span>
+            Available for new opportunities
+          </div>
+        </div>
+        <form class="contact-form" id="contactForm" action="https://formspree.io/f/YOUR_FORM_ID" method="POST">
+          <div class="form-group">
+            <input type="text" name="name" placeholder="Your Name" required />
+          </div>
+          <div class="form-group">
+            <input type="email" name="email" placeholder="Your Email" required />
+          </div>
+          <div class="form-group">
+            <input type="text" name="subject" placeholder="Subject" />
+          </div>
+          <div class="form-group">
+            <textarea name="message" rows="5" placeholder="Your Message" required></textarea>
+          </div>
+          <button type="submit" class="btn btn-primary btn-full">
+            <i class="fa-solid fa-paper-plane"></i> Send Message
+          </button>
+        </form>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== FOOTER ===== -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-content">
+        <a href="#hero" class="footer-logo">&lt;VCJ /&gt;</a>
+        <div class="footer-socials">
+          <a href="https://www.linkedin.com/in/vonchristianjobog/" target="_blank" aria-label="LinkedIn"><i class="fa-brands fa-linkedin-in"></i></a>
+          <a href="https://github.com/vonchristianjobog" target="_blank" aria-label="GitHub"><i class="fa-brands fa-github"></i></a>
+          <a href="mailto:vonchristianjobog@gmail.com" aria-label="Email"><i class="fa-solid fa-envelope"></i></a>
+        </div>
+        <p class="footer-copy">&copy; 2026 Von Christian Jobog. All Rights Reserved.</p>
+      </div>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
