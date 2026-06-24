@@ -1,11 +1,11 @@
 <h1 align="center">Von Christian Jobog</h1>
-<h3 align="center">Intelligent Automation Developer | RPA Engineer | AI Enthusiast</h3>
+<h3 align="center">RPA Developer | Intelligent Automation | ServiceNow | AI Automation</h3>
 
 <p align="center">
   <a href="https://www.linkedin.com/in/vonchristianjobog/">
     <img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" />
   </a>
-  <a href="mailto:vonchristianjobog@gmail.com">
+  <a href="mailto:jobogvonchristian@gmail.com">
     <img src="https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white" />
   </a>
   <img src="https://komarev.com/ghpvc/?username=vonchristianjobog&style=for-the-badge&color=blue" alt="Profile views" />
@@ -15,40 +15,49 @@
 
 ## About Me
 
-Automation professional with **10+ years** of experience in **RPA development, intelligent automation, and IT infrastructure**. I design and build scalable automation solutions that drive operational efficiency for enterprise-level organizations in telecommunications, IT consulting, and financial services.
+Results-driven **RPA Developer and Intelligent Automation specialist** with **11 years in IT** and **7+ years in RPA**, AI-enhanced automation, and process improvement. I design, develop, and deploy scalable automation using **UiPath** (Studio, Orchestrator, REFramework, Document Understanding, AI Center), the **Microsoft Power Platform** (Power Automate, Power BI), and **Python** — with hands-on **ServiceNow development, ITSM workflows, and API integrations**.
 
-Currently working as an **Intelligent Automation Developer** at **Smart Communications, Inc.**, where I architect end-to-end automation workflows, integrate AI capabilities into business processes, and lead digital transformation initiatives.
+Currently working as an **RPA Developer** at **Amdocs**, building UiPath and AI-driven automation, ServiceNow workflows and integrations, and Python-based orchestration across enterprise systems. My background also spans **Blue Prism, Automation Anywhere**, and infrastructure management (Windows/Linux, VMware), with **Agile/SAFe** delivery.
 
-I'm passionate about the intersection of **RPA and AI** — leveraging generative AI, machine learning, and intelligent document processing to push automation beyond rule-based tasks into cognitive territory.
+I'm passionate about the intersection of **RPA and AI** — combining intelligent document processing, ML models, and cognitive services to push automation beyond rule-based tasks into cognitive territory.
 
 ---
 
 ## Tech Stack & Tools
 
 ### RPA Platforms
-![Automation Anywhere](https://img.shields.io/badge/Automation_Anywhere-FF6C37?style=for-the-badge&logoColor=white)
 ![UiPath](https://img.shields.io/badge/UiPath-FA4616?style=for-the-badge&logo=uipath&logoColor=white)
+![UiPath REFramework](https://img.shields.io/badge/REFramework-FA4616?style=for-the-badge&logoColor=white)
+![Automation Anywhere](https://img.shields.io/badge/Automation_Anywhere-FF6C37?style=for-the-badge&logoColor=white)
 ![Blue Prism](https://img.shields.io/badge/Blue_Prism-0052CC?style=for-the-badge&logoColor=white)
 ![Power Automate](https://img.shields.io/badge/Power_Automate-0066FF?style=for-the-badge&logo=powerautomate&logoColor=white)
 
-### Languages & Scripting
+### AI & Automation
+![UiPath Document Understanding](https://img.shields.io/badge/Document_Understanding-FA4616?style=for-the-badge&logoColor=white)
+![UiPath AI Center](https://img.shields.io/badge/AI_Center-FA4616?style=for-the-badge&logoColor=white)
+![Machine Learning](https://img.shields.io/badge/Machine_Learning-FF6F00?style=for-the-badge&logoColor=white)
+![IDP](https://img.shields.io/badge/Intelligent_Document_Processing-6E48AA?style=for-the-badge&logoColor=white)
+![Cursor AI](https://img.shields.io/badge/Cursor_AI-000000?style=for-the-badge&logo=cursor&logoColor=white)
+
+### Languages & Data
 ![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
 ![PowerShell](https://img.shields.io/badge/PowerShell-5391FE?style=for-the-badge&logo=powershell&logoColor=white)
-![VB.NET](https://img.shields.io/badge/VB.NET-512BD4?style=for-the-badge&logo=dotnet&logoColor=white)
-![C#](https://img.shields.io/badge/C%23-239120?style=for-the-badge&logo=csharp&logoColor=white)
+![.NET](https://img.shields.io/badge/.NET-512BD4?style=for-the-badge&logo=dotnet&logoColor=white)
 ![SQL](https://img.shields.io/badge/SQL-CC2927?style=for-the-badge&logo=microsoftsqlserver&logoColor=white)
+![PHP](https://img.shields.io/badge/PHP-777BB4?style=for-the-badge&logo=php&logoColor=white)
+![Power BI](https://img.shields.io/badge/Power_BI-F2C811?style=for-the-badge&logo=powerbi&logoColor=black)
 
-### AI & Data
-![OpenAI](https://img.shields.io/badge/OpenAI-412991?style=for-the-badge&logo=openai&logoColor=white)
-![LangChain](https://img.shields.io/badge/LangChain-1C3C3C?style=for-the-badge&logoColor=white)
-![Pandas](https://img.shields.io/badge/Pandas-150458?style=for-the-badge&logo=pandas&logoColor=white)
-
-### Platforms & Infrastructure
-![ServiceNow](https://img.shields.io/badge/ServiceNow-81B5A1?style=for-the-badge&logo=servicenow&logoColor=white)
-![Linux](https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black)
-![Windows Server](https://img.shields.io/badge/Windows_Server-0078D4?style=for-the-badge&logo=windows&logoColor=white)
-![VMware](https://img.shields.io/badge/VMware-607078?style=for-the-badge&logo=vmware&logoColor=white)
+### ServiceNow & Platforms
+![ServiceNow](https://img.shields.io/badge/ServiceNow_(ITSM)-81B5A1?style=for-the-badge&logo=servicenow&logoColor=white)
+![SharePoint](https://img.shields.io/badge/SharePoint-0078D4?style=for-the-badge&logo=microsoftsharepoint&logoColor=white)
+![REST APIs](https://img.shields.io/badge/REST_APIs-005571?style=for-the-badge&logoColor=white)
 ![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white)
+
+### Infrastructure
+![Windows Server](https://img.shields.io/badge/Windows_Server-0078D4?style=for-the-badge&logo=windows&logoColor=white)
+![Linux](https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black)
+![VMware](https://img.shields.io/badge/VMware-607078?style=for-the-badge&logo=vmware&logoColor=white)
+![Active Directory](https://img.shields.io/badge/Active_Directory-0078D4?style=for-the-badge&logoColor=white)
 
 ---
 
@@ -56,11 +65,11 @@ I'm passionate about the intersection of **RPA and AI** — leveraging generativ
 
 | Period | Role | Company | Industry |
 |--------|------|---------|----------|
-| **2022 – Present** | Intelligent Automation Developer | Smart Communications, Inc. | Telecommunications |
-| **2021 – 2022** | System Specialist (Automation) | PCCW Solutions Limited | IT Consulting |
-| **2019 – 2021** | Associate Consultant / RPA Developer | CGI | IT Consulting |
-| **2018 – 2019** | RPA Developer | HCX Technology Partners (Ayala Corp.) | IT Services |
-| **2015 – 2018** | Technical Consultant | HCX Technology Partners (Ayala Corp.) | IT Services |
+| **2026 – Present** | RPA Developer | Amdocs | Software & Services |
+| **2022 – 2026** | Intelligent Automation Developer | Smart Communications, Inc. | Telecommunications |
+| **2021 – 2022** | System Specialist (Automation Team) | PCCW Solutions Limited | IT Services |
+| **2019 – 2021** | Associate Consultant (RPA Developer) | CGI Philippines Inc. | IT Consulting |
+| **2015 – 2019** | Technical Consultant / RPA Developer | HCX Technology Partners (AC Synergy, Ayala Corp.) | IT Services |
 
 ---
 
@@ -72,25 +81,27 @@ I'm passionate about the intersection of **RPA and AI** — leveraging generativ
 | Intelligent Automation Foundations | LinkedIn Learning | 2023 |
 | SAFe 5 Practitioner | Scaled Agile, Inc. | 2021 |
 | Blue Prism Developer Certification | Blue Prism | 2021 |
+| UiPath Level 1 – Foundation Training | UiPath | 2019 |
 | AA Certified Advanced RPA Professional (v11) | Automation Anywhere | 2019 |
 | Control Room Administrator | Automation Anywhere | 2019 |
-| UiPath Level 1 – Foundation Training | UiPath | 2019 |
 | AA Certified Advanced RPA Professional | Automation Anywhere | 2018 |
 | RH124 – Red Hat Enterprise Linux System Admin | IT Group, Inc. | 2017 |
 | UNIX and Linux Essentials | TechEdge Solutions | 2016 |
+| Career Essentials in Software Development | Microsoft & LinkedIn | — |
+| Power Automate Essential Training | Microsoft & LinkedIn | — |
 
 ---
 
 ## What I Bring to the Table
 
 ```text
-AUTOMATION ARCHITECTURE     ████████████████████████   10+ yrs
-RPA Development (AA/UiPath) ████████████████████████   8+ yrs
-PowerShell / Scripting      ██████████████████████░░   7+ yrs
-ServiceNow Development      ████████████████░░░░░░░░   5+ yrs
-Linux / Server Admin        ████████████████████░░░░   6+ yrs
-AI / LLM Integration        ████████████░░░░░░░░░░░░   3+ yrs
-Python                      ████████████░░░░░░░░░░░░   3+ yrs
+UiPath (Studio/Orch/REFramework) ████████████████████████   7+ yrs
+RPA (Automation Anywhere/BP)     ██████████████████████░░   7+ yrs
+ServiceNow (ITSM Development)    ████████████████████░░░░   4+ yrs
+PowerShell / Scripting           ██████████████████████░░   6+ yrs
+Power Platform (Automate/BI)     ████████████████████░░░░   3+ yrs
+AI-Enhanced Automation           ████████████████░░░░░░░░   3+ yrs
+Python                           ████████████░░░░░░░░░░░░   3+ yrs
 ```
 
 ---
@@ -138,10 +149,10 @@ Python                      ████████████░░░░░�
 
 I'm open to **freelance**, **contract**, and **full-time remote opportunities** in:
 
-- Intelligent Automation & RPA Development
-- AI/ML Integration & Generative AI Solutions
-- Process Automation Consulting
-- Technical Architecture & DevOps
+- Intelligent Automation & RPA Development (UiPath)
+- ServiceNow Development & ITSM Workflows
+- AI/ML Integration & Intelligent Document Processing
+- Process Automation Consulting & Improvement
 
 <p align="center">
   <a href="https://www.linkedin.com/in/vonchristianjobog/">
